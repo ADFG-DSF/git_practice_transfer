@@ -1,5 +1,5 @@
 #Create a Fibonacci sequence to practice git operations
-#Adam Reimer (but greatly improved by Carly Reimer)
+#Adam Reimer & Carly Reimer
 
 fib_seq <- c(0, 1)
 fib_seq[3] <- fib_seq[1] + fib_seq[2]
