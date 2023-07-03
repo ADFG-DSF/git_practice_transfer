@@ -10,4 +10,4 @@ fib_seq[7] <- fib_seq[5] + fib_seq[6]
 for (i in 8:51) fib_seq[i] <- sum(fib_seq[(i-1):(i-2)])
   
 plot(1:50, fib_seq[2:51]/fib_seq[1:50], type = "l")
-fib_seq[51]/fib_seq[50]
+{golden_ration <- fib_seq[51]/fib_seq[50]}
