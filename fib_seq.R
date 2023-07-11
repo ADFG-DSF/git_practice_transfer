@@ -9,3 +9,5 @@ plot(1:50, fib_seq[2:51]/fib_seq[1:50],
      xlab = "Fibonacci Number in Denominator",
      ylab = "Ratio Between Succesive Fibonacci Numbers")
 {golden_ratio <- fib_seq[51]/fib_seq[50]}
+
+#A second useless comment. Plan to commit then revert the commit.
